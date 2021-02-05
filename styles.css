@@ -1,3 +1,7 @@
+@font-face {
+	font-family: 'a_AvanteBS'; 
+	src: url(/aAvanteBSConfigure.ttf); 
+}
 * {
 font-family: "a_AvanteBS";
 font-size: 24px;
