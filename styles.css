@@ -3,7 +3,8 @@
 	src: url(/AAvanteBsConfigure.ttf); 
 }
 .game3{
-	background-image: url(/media/minecraft-java.png);	
+	background-image: url(/media/minecraft-java.png);
+	background-size: 100%;
 }
 * {
 font-family: "a_AvanteBS";
