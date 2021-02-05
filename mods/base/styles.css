@@ -19,3 +19,5 @@
 	50%{background-color: rgba(0,0,0,0.3); color:rgba(255,0,0,1);}
 	to{background-color: rgba(0,0,0,0); color: rgba(0,0,0,0);}
 }
+.page_wrap{background-color: transparent !important; color: white !important;}
+.wcomments_head{background-color: transparent !important; color: white !important;}
