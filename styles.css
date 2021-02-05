@@ -2,6 +2,14 @@
 	font-family: 'a_AvanteBS'; 
 	src: url(/AAvanteBsConfigure.ttf); 
 }
+.game1{
+	background-image: url(/media/gtasa.jpeg);
+	background-size: 100%;
+}
+.game2{
+	background-image: url(/media/minecraft-bedrock.jpg);
+	background-size: 100%;
+}
 .game3{
 	background-image: url(/media/minecraft-java.png);
 	background-size: 100%;
