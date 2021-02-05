@@ -1,0 +1,21 @@
+.thumb{transition: border 1s; width: 118px; height: 118px; border: 1px solid #404040; overflow: hidden; background-color: #000000; display: inline-block;}
+.thumb:hover{border: 1px solid white !important; transition: border 1s;}
+.thimg{width: 100%; margin: 0 auto;}
+.topbar{background-color: black; position: fixed; width: 100%; height: 50px; color: white; top: 0px; left: 0px; border-bottom: 1px solid #00FF00;}
+#viewer{width: 100%; height: 100%; transition: top 1s; position: fixed; top: -100%; left: 0px; background-color: rgba(0,0,0,0.5); overflow: hidden;}
+#close{width: 100px; height: 100px; background-color: rgba(0,0,0,0); color: rgba(0,0,0,0); animation: closebutton_out 1s; border: 0px solid red; border-top: 1px solid red; position: absolute; top: 0px; right: 0px;}
+#close:hover{background-color: rgba(255,255,255,0.3); color:rgba(255,0,0,1); animation: closebutton_in 1s;}
+#pic{width: 100%; height: 100%; background-size: contain !important;}
+#prev{background-color: transparent; border: 0px solid white; border-left: 1px solid white; width: 100px; height: 100%; position: absolute; top: 0px; left: 0px;}
+#next{background-color: transparent; border: 0px solid white; border-right: 1px solid white; width: 100px; height: 100%; position: absolute; top: 0px; right: 0px;}
+
+@keyframes closebutton_in{
+	from{background-color: rgba(0,0,0,0); color: rgba(0,0,0,0);}
+	50%{background-color: rgba(0,0,0,0.3); color:rgba(255,0,0,1);}
+	to{background-color: rgba(255,255,255,0.3)}
+}
+@keyframes closebutton_out{
+	from{background-color: rgba(255,255,255,0.3)}
+	50%{background-color: rgba(0,0,0,0.3); color:rgba(255,0,0,1);}
+	to{background-color: rgba(0,0,0,0); color: rgba(0,0,0,0);}
+}
