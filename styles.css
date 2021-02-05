@@ -2,6 +2,9 @@
 	font-family: 'a_AvanteBS'; 
 	src: url(/AAvanteBsConfigure.ttf); 
 }
+.game3{
+	background-image: url(/media/minecraft-java.png);	
+}
 * {
 font-family: "a_AvanteBS";
 font-size: 24px;
