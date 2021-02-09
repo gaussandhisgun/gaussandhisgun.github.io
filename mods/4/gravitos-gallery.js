@@ -1,6 +1,6 @@
 // Gravitos' Gallery plugin
 //v1.0 | 16.12.2020 | vk.com/cube_mentore
-amount = 4;
+amount = 1;
 // ^ the only module setting is image amount.
 // Images should be named as i.png where i is
 // image number w/o first zeroes (starting with 0.png),
